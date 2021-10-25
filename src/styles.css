@@ -1,0 +1,99 @@
+/* background-image:url(https://pm1.narvii.com/7540/34730d38b989a939fd8dada3a8545c72fe28c7d2r5-1080-1597_00.jpg) ;
+background-repeat: no-repeat;
+background-size: 34%;
+width: 1250px;
+height: 1600px;
+background-color: #1F456E; */
+/* body{
+background-position: center top;
+} */
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+.AllImages {
+  border: 11px solid rgb(210, 89, 24);
+  /* background-image:{} */
+  text-align: center;
+  /* padding: 20px */
+}
+.directory-component {
+  /* background-color: rgba(66, 178, 200, 0.503); */
+  display: grid;
+  padding: 15px;
+}
+.DealsImages {
+  border: 10px solid rgb(98, 21, 199);
+}
+.ElectronicStore {
+  padding: 30px;
+}
+.Home {
+  padding: 60px;
+  /* background-color: rgb(21, 20, 20) */
+}
+.menu-img {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+.menuitem-component {
+  border: solid black 10px;
+  padding: 10px;
+}
+.columns {
+  padding: 10px;
+}
+.homepage-component {
+  /* background-color: black; */
+  border: 10px solid;
+  background-image: url(https://t3.ftcdn.net/jpg/04/44/39/80/360_F_444398090_ek1YrGhZa2AZmiUZwALuMe3cRafivme9.jpg);
+  height: 100%;
+}
+.header1 {
+  animation: blink 0.5s infinite;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate; */
+}
+@keyframes blink {
+  0% {
+    color: red;
+  }
+  47% {
+    color: black;
+  }
+  62% {
+    color: transparent;
+  }
+  97% {
+    color: transparent;
+  }
+  60% {
+    color: violet;
+  }
+}
+.grid {
+  border: solid black 10px;
+  padding: 10px;
+}
+h2 {
+  animation: blink 0.5s infinite;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate; */
+}
+@keyframes blink {
+  0% {
+    color: red;
+  }
+  47% {
+    color: black;
+  }
+  62% {
+    color: transparent;
+  }
+  97% {
+    color: transparent;
+  }
+  60% {
+    color: violet;
+  }
+}
