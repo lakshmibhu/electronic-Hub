@@ -17,7 +17,7 @@ class Laptops extends React.Component {
               width="300"
               height="300"
             />
-          )
+          ),
         },
         {
           name: "Apple",
@@ -29,7 +29,7 @@ class Laptops extends React.Component {
               width="300"
               height="300"
             />
-          )
+          ),
         },
 
         {
@@ -42,7 +42,7 @@ class Laptops extends React.Component {
               width="300"
               height="300"
             />
-          )
+          ),
         },
         {
           name: "Lenovo",
@@ -54,7 +54,7 @@ class Laptops extends React.Component {
               width="300"
               height="300"
             />
-          )
+          ),
         },
         {
           name: "Dell",
@@ -62,11 +62,11 @@ class Laptops extends React.Component {
           cost: "$300",
           image: (
             <img
-              src="https://5.imimg.com/data5/HM/CT/MY-54168454/lenovo-laptops-500x500.jpg"
+              src="https://i.dell.com/is/image/DellContent//content/d…&hei=2017&qlt=100,0&resMode=sharp2&size=3334,2017"
               width="300"
               height="300"
             />
-          )
+          ),
         },
         {
           name: "Dell inspiron",
@@ -78,9 +78,9 @@ class Laptops extends React.Component {
               width="300"
               height="300"
             />
-          )
-        }
-      ]
+          ),
+        },
+      ],
     };
   }
   render() {

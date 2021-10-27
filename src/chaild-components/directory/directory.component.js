@@ -13,7 +13,7 @@ class Directory extends React.Component {
           linkUrl: "/usb",
           cost: "$6",
           imageUrl:
-            "https://www.usbmakers.com/wp-content/uploads/2020/01/Picture2-2.png"
+            "https://www.usbmakers.com/wp-content/uploads/2020/01/Picture2-2.png",
         },
         {
           name: "Mouse",
@@ -21,14 +21,14 @@ class Directory extends React.Component {
           linkUrl: "/mouse",
           cost: "$10",
           imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStE4ZVZNjdubrOwCsadg6ez9sEjmYbyL7Yew&usqp=CAU"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStE4ZVZNjdubrOwCsadg6ez9sEjmYbyL7Yew&usqp=CAU",
         },
         {
           name: "Chargers",
           id: 3,
           linkUrl: "/Chargers",
           cost: "$20",
-          imageUrl: "https://in.all.biz/img/in/catalog/143369.jpeg"
+          imageUrl: "https://in.all.biz/img/in/catalog/143369.jpeg",
         },
         {
           name: "Mobiles",
@@ -36,7 +36,7 @@ class Directory extends React.Component {
           linkUrl: "/Mobiles",
           cost: "$60",
           imageUrl:
-            "https://images.hindustantimes.com/img/2021/06/08/1600x900/IMG_5223_1623145084295_1623145098953.jpg"
+            "https://images.hindustantimes.com/img/2021/06/08/1600x900/IMG_5223_1623145084295_1623145098953.jpg",
         },
         {
           name: "Laptops",
@@ -44,7 +44,7 @@ class Directory extends React.Component {
           linkUrl: "/Laptops",
           cost: "$500",
           imageUrl:
-            "https://api.time.com/wp-content/uploads/2017/05/laptops.jpg"
+            "https://api.time.com/wp-content/uploads/2017/05/laptops.jpg",
         },
         {
           name: "Speakers",
@@ -52,9 +52,9 @@ class Directory extends React.Component {
           linkUrl: "/Speakers",
           cost: "$30",
           imageUrl:
-            "https://media.istockphoto.com/photos/two-big-tower-sound-speakers-hifi-stereo-system-picture-id905675810"
-        }
-      ]
+            "https://media.istockphoto.com/photos/two-big-tower-sound-speakers-hifi-stereo-system-picture-id905675810",
+        },
+      ],
     };
   }
 
@@ -65,8 +65,7 @@ class Directory extends React.Component {
           className="header1"
           style={{ fontSize: "40px", fontWeight: "bold", color: "red" }}
         >
-          {" "}
-          Electronics Hub{" "}
+          Electronics Hub
         </div>
         <Container>
           <Row>

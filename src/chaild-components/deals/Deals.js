@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Row, Container, Carousel } from "react-bootstrap";
+import { Carousel} from "react-bootstrap";
 
 class Deals extends React.Component {
   render() {
